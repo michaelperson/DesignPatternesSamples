@@ -23,6 +23,8 @@ namespace Wonka.Models
             _whiteChocolateLevel = 100;
             _isHeating = false;
         }
+         
+     
 
         public static ChocolateFactory Instance
         {
@@ -39,7 +41,7 @@ namespace Wonka.Models
                     }
                 }
                 return _instance;
-            }
+            } 
         }
 
         public ChocolateStatus GetStatus()
@@ -58,10 +60,10 @@ namespace Wonka.Models
             int currentLevel = GetChocolateLevel(type);
             if (currentLevel < amount)
                 return (false, GetStatus());
-
+            UpdateChocolateLevel(type, -amount);
             _isHeating = true;
             Thread.Sleep(1000); // Simulation du temps de préparation
-            UpdateChocolateLevel(type, -amount);
+            
             _isHeating = false;
 
             return (true, GetStatus());
