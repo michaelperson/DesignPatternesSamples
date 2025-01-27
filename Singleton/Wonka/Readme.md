@@ -62,9 +62,9 @@ Chaque type de chocolat a son expert :
 2. **Les Classes Spécialisées sont utiles quand :**
    - Vous avez des opérations spécifiques pour différents types
    - Vous voulez séparer les responsabilités
-   - Vous souhaitez rendre le code plus maintenant
+   - Vous souhaitez rendre le code plus maintenable
 
-## 🎓 Points Éducatifs
+## 🎓 Points importants
 
 - **Thread-Safe** : Notre chocolaterie utilise un verrouillage (lock) pour être thread-safe
 - **Encapsulation** : Les niveaux de chocolat sont privés et accessibles uniquement via des méthodes contrôlées
