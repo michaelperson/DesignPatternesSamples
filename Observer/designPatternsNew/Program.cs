@@ -8,6 +8,7 @@ namespace designPatterns
         {
             Hub hub = new();
             Hub noHub = new();
+
             Sub one = new("one");
             Sub two = new("two");
             Sub three = new("three");
@@ -26,6 +27,8 @@ namespace designPatterns
             two.Update("Hello World !");
             Console.WriteLine("---TEST 3---");
             three.Update(true);
+            Console.WriteLine("---TEST 4---");
+            noFour.Update(false);
         }
     }
 }

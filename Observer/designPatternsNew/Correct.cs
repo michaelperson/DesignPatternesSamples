@@ -3,19 +3,19 @@
     internal static class Correct
     {
     
-        public interface IHub
+        internal interface IHub
         {
-            public void Notify(ISub from, dynamic data);
-            public void Add(ISub sub);
-            public void Remove(ISub sub);
+            void Notify(ISub from, dynamic data);
+            void Add(ISub sub);
+            void Remove(ISub sub);
         }
 
-        public interface ISub
+        internal interface ISub
         {
-            public void Join(IHub hub);
-            public void Leave();
-            public void Update(dynamic data);
-            public void Receive(dynamic data);
+            void Join(IHub hub);
+            void Leave();
+            void Update(dynamic data);
+            void Receive(dynamic data);
         }
 
         public class Hub : IHub
@@ -41,7 +41,7 @@
         public class Sub(string x) : ISub
         {
             private IHub? _hub;
-            private string _name = x;
+            private readonly string _name = x;
             public void Join(IHub hub)
             {
                 _hub = hub;
@@ -64,7 +64,5 @@
                 _hub?.Notify(this, data);
             }
         }
-
-
     }
 }
