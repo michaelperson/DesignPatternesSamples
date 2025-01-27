@@ -1,5 +1,6 @@
 ﻿namespace designPatterns
 {
+    //Attention c'est à l'envers ---A refondre
     internal class Program
     {
         //Observer Pattern
@@ -13,6 +14,8 @@
             TestObject obj1 = new("obj1");
             TestObject obj2 = new("obj2");
             TestObject obj3 = new("obj3");
+
+            
 
             subject.addObserver(obj1);
             subject.addObserver(obj2);
@@ -36,30 +39,57 @@
             }
         }
 
+        /// <summary>
+        /// sert à regrouper les objets qui peuvent être des observer
+        /// et définir la méthode utilisée pour répercuter les changements d'états
+        /// </summary>
         interface IObs
         {
-            void Update();
+            void Reaction();
+            void addObserve();
+
         }
 
+        interface IRegarder
+        {
+            void Notify();
+        }
+
+        /// <summary>
+        /// Sub = Subject ??? 
+        /// Contient les mattés --> style recherche sur un site de rencontre
+        /// </summary>
         class Sub
         {
             private List<IObs> observerList = [];
+            /// <summary>
+            /// Ceux qui mattent
+            /// </summary>
+            /// <param name="x">nom du mateur</param>
             public void addObserver(IObs x)
             {
                 observerList.Add(x);
             }
 
+            /// <summary>
+            /// Un cri dans la nuit
+            /// </summary>
             public void Notify()
             {
-                observerList.ForEach(x => x.Update());
+                observerList.ForEach(x => x.Reaction());
             }
         }
 
+        /// <summary>
+        /// Ceux qui observe
+        /// </summary>
+        /// <param name="x">donner un nom pour afficher dans la console</param>
         class TestObject(string x) : IObs
         {
             public string name { get; private set; } = x;
-            void IObs.Update()
+            void IObs.Reaction()
             {
+                
                 Console.WriteLine($"{name}: Update Received !");
             }
         }
