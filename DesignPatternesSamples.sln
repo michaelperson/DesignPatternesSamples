@@ -11,9 +11,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{21
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{EE785501-B8FE-4666-B995-4F9B6E9301AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{74BB9F89-576E-4CDC-A377-866B0E2F0BA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wonka", "Singleton\Wonka\Wonka.csproj", "{06593A28-985C-4917-AB6E-B45D3FD034FE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06593A28-985C-4917-AB6E-B45D3FD034FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06593A28-985C-4917-AB6E-B45D3FD034FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06593A28-985C-4917-AB6E-B45D3FD034FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06593A28-985C-4917-AB6E-B45D3FD034FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06593A28-985C-4917-AB6E-B45D3FD034FE} = {74BB9F89-576E-4CDC-A377-866B0E2F0BA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF6B16ED-EE9A-4D86-9F2C-AB891B88F06F}
