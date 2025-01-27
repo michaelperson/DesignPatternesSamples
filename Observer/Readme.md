@@ -8,7 +8,7 @@ Permet de notifier les objets entre eux a partir d'évenements
 
 L'Observer peut être un object quelconque du moment qu'il implémente une interface Observer
 
-Le Sujet lui s'occupe de gérer son groupe d'Observeur pour relayer les informations entre eux
+Le Sujet lui s'occupe de gérer son groupe d'Observer pour relayer les informations entre eux
 
 ### Dans quel cas est t'il utilisé ?
 
