@@ -1,0 +1,14 @@
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\bin\Debug\net8.0\designPatterns.exe
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\bin\Debug\net8.0\designPatterns.deps.json
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\bin\Debug\net8.0\designPatterns.runtimeconfig.json
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\bin\Debug\net8.0\designPatterns.dll
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\bin\Debug\net8.0\designPatterns.pdb
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.AssemblyInfoInputs.cache
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.AssemblyInfo.cs
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.csproj.CoreCompileInputs.cache
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.dll
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\refint\designPatterns.dll
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.pdb
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\designPatterns.genruntimeconfig.cache
+C:\Users\a.decafmeyer\Desktop\designPatterns\designPatterns\obj\Debug\net8.0\ref\designPatterns.dll
