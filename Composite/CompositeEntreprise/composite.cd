@@ -21,11 +21,11 @@
       <FileName>Entities\SystemFile.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SystemFile.ProtectedDirectory" Collapsed="true">
-    <Position X="4.75" Y="6" Width="1.5" />
+  <Class Name="SystemFile.Entities.ProtectedDirectory" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProtectedDirectory.cs</FileName>
+      <FileName>Entities\ProtectedDirectory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

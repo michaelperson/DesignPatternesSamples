@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PatternComposite.Entities
 {
-    public class FileElement : SystemFile
+    public  class FileElement : SystemFile
     {
         public FileElement(string name) : base(name)
         {

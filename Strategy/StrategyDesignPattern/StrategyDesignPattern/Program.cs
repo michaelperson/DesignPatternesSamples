@@ -1,4 +1,5 @@
 ﻿using StrategyDesignPattern.Interface;
+using StrategyDesignPattern.Recettes;
 
 namespace StrategyDesignPattern;
 
@@ -20,5 +21,10 @@ class Program
         IConfitureRecette recetteBonneMaman = new RecetteBonneMaman();
         FabricationConfiture fabrication3 = new FabricationConfiture(recetteBonneMaman);
         fabrication3.ProduireConfiture("pêches", 750);
+
+        //Confiture anti-beaux-parents
+        IConfitureRecette recetteDegeu = new RecetteDegeulasse();
+        FabricationConfiture fabrication4 = new FabricationConfiture(recetteDegeu);
+        fabrication4.ProduireConfiture("Kaki", 150);
     }
 }

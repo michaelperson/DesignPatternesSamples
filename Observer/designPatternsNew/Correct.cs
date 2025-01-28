@@ -1,10 +1,13 @@
-﻿namespace designPatterns
+﻿using System.Collections.ObjectModel;
+
+namespace designPatterns
 {
     internal static class Correct
     {
     
         internal interface IHub
         {
+            
             void Notify(ISub from, dynamic data);
             void Add(ISub sub);
             void Remove(ISub sub);
